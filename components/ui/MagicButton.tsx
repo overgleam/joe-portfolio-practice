@@ -23,7 +23,7 @@ const MagicButton = ({
         className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-7 py-1 text-sm font-medium text-white backdrop-blur-3xl ${otherClasses}`}
       >
         {position === "left" && icon}
-        {title}
+        BOGOG NAWNG
         {position === "right" && icon}
       </span>
     </button>
