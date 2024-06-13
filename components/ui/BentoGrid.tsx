@@ -57,11 +57,14 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 relative rounded-3xl overflow-hidden group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-noneborder border border-white/[0.1] justify-between flex flex-col space-y-4",
+        `row-span-1 relative rounded-3xl overflow-hidden group/bento transition duration-200 shadow-black dark:shadow-noneborder border border-white/[0.1] justify-between flex flex-col space-y-4 bg-[#eee3e0] dark:bg-black-100 shadow-[10px_10px] ${
+          id !== 6
+            ? "active:translate-x-[10px] active:translate-y-[10px] active:shadow-none"
+            : ""
+        }`,
         className
       )}
       style={{
-        background: "rgb(4,7,29)",
         backgroundColor:
           "linear-gradient(20deg, rgba(47,27,27 ,1) 0%, rgba(255,0,0,1) 100%)",
       }}
@@ -103,10 +106,17 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+          <div
+            className={`font-sans text-nowrap font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#2b2f33] dark:text-[#C1C2D3] z-10
+            }`}
+          >
             {description}
           </div>
-          <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+          <div
+            className={`dark:text-white-100 font-sans font-bold text-lg lg:text-3xl max-w-96 z-10 
+            ${id === 6 || id === 1 ? "text-white" : "text-[#2b2f33]"}
+            `}
+          >
             {title}
           </div>
 
@@ -118,7 +128,7 @@ export const BentoGridItem = ({
                 {["React.js", "Next.js", "TypeScript"].map((item) => (
                   <span
                     key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center text-white bg-rose-500 dark:bg-[#10132E]"
                   >
                     {item}
                   </span>
@@ -132,7 +142,7 @@ export const BentoGridItem = ({
                 {["Java", "Python", "ML"].map((item) => (
                   <span
                     key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center text-white bg-[#fbe722] dark:bg-[#10132E]"
                   >
                     {item}
                   </span>
@@ -160,7 +170,7 @@ export const BentoGridItem = ({
                 icon={<IoCopyOutline />}
                 handleClick={handleCopy}
                 position="left"
-                otherClasses="gap-2 bg-[#161a31]"
+                otherClasses="gap-2 bg-rose-500"
               />
             </div>
           )}

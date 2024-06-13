@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/jo.jpg",
     spareImg: "",
   },
   {
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Alforque Gwapo kaayo sheeeessshhh",
+    title: "Goodmorning kamo langsay, ginhawa diha dili nako",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Si Joseph Alforque Ang PinakaPogi",
-    description: "The Inside Scoop",
+    title: "Nanglood naman siguro ning kwarta nako kay lisud naman pangitaon.",
+    description: "Description ni siya",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Halanga uy! 0922 Ikaw bahala sa pito",
+    title: "Pwede mo parking? sa imong bakanti nga kasing-kasing",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,32 +72,32 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Bakit hindi mo maramdaman?",
+    des: "Kinakausap lang Kita kapag ako'y nangangailangan Baka may kakilala Ka na pwede kong utangan",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://www.facebook.com/DarkWanted08",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Ikaw sa akin ay mahalaga",
+    des: "Kasi alam Mo na sa tong-its, talo ako Puwede bang bigyan ako kahit anim na numero?",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://www.facebook.com/DarkWanted08",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Ako sa'yo'y kaibigan lamang",
+    des: "Kinakausap lang Kita kapag ako'y nangangailangan Sana'y may artista na maka-date man lamang",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://www.facebook.com/DarkWanted08",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Lord patawag pagkat akoy makasalanan",
+    des: "Okay lang sa akin kahit na si Joyce Jimenez Sana ako'y pumogi, pumuti, at maging flawless",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://www.facebook.com/DarkWanted08",
@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Inday, kabaw ba ka na ikaw ang bugtong itik nga nagkapa kapa sa malapukon kong dughan, ug ikaw ang ting ting nga naga bagting sa akong malaw-ay nga kasing kasing, ug saksi ang mga unggoy nga nag langoy langoy kilid sa hagunoy, sa akong gugmang ikaw ra ang ge pangandoy",
+    name: "Joseph Alforque",
+    title: "Director of the World",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ako'y nagsisimba kapag gusto ko lang 'Pag may bagong damit na ipagyayabang 'Pag may bagong biling mahal na pabango Kapag bago ang shoes o kaya ang relo Ako'y nagsisimba kapag gusto ko lang 'Pag may jowa akong makakalampungan Kapag may mga bebot na ang gaganda Kapag mayro'ng baklitang nakakatawa Ako'y nagsisimba kapag gusto ko lang 'Pag and'yan ang tropa't nagkayayaan Hahanap ako ng mapagti-tripan Pagkatapos ng misa ay aabangan",
+    name: "Alforque Joseph",
+    title: "Totoy Bibo",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Akala ko dati ay kaya ko na Kaya ko nang mabuhay mag-isa Ang daming trabaho, babae't pera 'Pag ako'y sagana, 'di Kita kilala Naalala Kita no'ng ako'y nakulong Parang bubuyog, bulong nang bulong 'Pag may kamalasan sa 'king nangyari Ikaw lang nang Ikaw aking sinisisi Kapag mayro'ng debate, sino'ng magaling? Sino'ng matuwid? Sino ang nagsinungaling? Ako'y naiiling at mistulang sanggol 'Di man lamang Kita kayang ipagtanggol",
+    name: "Joseph Ako Pangalan",
+    title: "Adik sa kanto",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Lord, patawad Lo-oh-oh-oh, oh-oh-oh, Lord Lord, Lord, Lord, patawad Lo-oh-oh-oh, oh-oh-oh, Lord Sa puso ko'y lagi S'yang kumakatok 'Di ko binuksan, 'di ko pinapasok Tuktok ng bundok na Kan'yang inakyat Tignan ko pa lang, ako ay nilagnat Dapat ako ang ipako sa cross Dapat ako ay siyang nanlilimos Ng awa't patawad sa ating Ama Ngunit masama pa ang pinadama Da-da-da-da-da-da-da-da-da-da Puro ako salita at dada Sa biyaya, ako'y naaatat Pero kahit kailan, 'di nagpasalamat Nagduda ako sa kakayahan Mo 'Di ako nararapat sa Iyo Masyado akong mapagmalaki Pero kahit kailan, hindi Ka naghiganti",
+    name: "Paita kinabuhia",
+    title: "Purtune Puti",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Sinosolo ko lang ang bigay Mong blessings 'Pag kumanta ako, dapat ay bayad din Bakit nga ba sa 'Yo ay wala akong time? Pa'no kung Ikaw na ang mawalan sa 'kin ng time?",
+    name: "Wala nakoy kwarta",
+    title: "Purtune Puwa",
   },
 ];
 
@@ -173,28 +173,28 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Paubaya by Moira Dela Torre",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Pagsamo by Arthur Nery",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
+    title: "Leaves by Ben and Ben10",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Orange and Lemons",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    href: "https://github.com/overgleam/next-portfolio-practice",
   },
   {
     id: 2,
     img: "/twit.svg",
+    href: "https://x.com/Josephalforque",
   },
   {
     id: 3,
     img: "/link.svg",
+    href: "https://www.facebook.com/DarkWanted08",
   },
 ];

@@ -14,7 +14,7 @@ export function Approach() {
         <Card
           title="Joseph"
           icon={<AceternityIcon order="Uno" />}
-          description="In every endeavor, you strive for the pinnacle of achievement. Mediocrity is anathema to your nature; you seek mastery, pushing boundaries and exceeding expectations. This relentless drive fuels your journey, ensuring that you leave a mark of excellence in all that you undertake."
+          description="Akong gugma kanimo morag biko naay sagol latik pero way sagol atik andam tikang huwaton bisag imo rakong ing anaon, ma bugnaw man ang kan on, malaya man ang dahon, basta ikaw akong makadayun, let's go na dayun"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,7 +24,7 @@ export function Approach() {
         <Card
           title="Alforque"
           icon={<AceternityIcon order="Dos" />}
-          description="Integrity is the cornerstone of your character. In a world often swayed by expedience, you remain steadfast in your principles. Your words and actions are harmonized by a commitment to truth and honor, earning the trust and respect of those around you. This moral compass guides you through life's intricate labyrinth, ensuring you remain true to yourself and others."
+          description="Akong kab-uton ang buwan, e dribble-dribble sa imong atubangan, syaro kanang imong inahan, di nako mahimong ugangan."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}

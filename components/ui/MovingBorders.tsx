@@ -32,7 +32,7 @@ export function Button({
   return (
     <Component
       className={cn(
-        "bg-transparent relative text-xl p-[1px] overflow-hidden md:col-span-2",
+        "bg-transparent relative text-xl p-[1px] overflow-hidden md:col-span-2 shadow-black shadow-[10px_10px] active:translate-x-[5px] active:translate-y-[6px] transition duration-300 active:shadow-none",
         containerClassName
       )}
       style={{
@@ -47,7 +47,7 @@ export function Button({
         <MovingBorder duration={duration} rx="30%" ry="30%">
           <div
             className={cn(
-              "h-20 w-20 opacity-[0.8] bg-[radial-gradient(var(--sky-500)_40%,transparent_60%)]",
+              "h-20 w-20 opacity-[0.8] bg-[radial-gradient(var(--rose-500)_40%,transparent_60%)]",
               borderClassName
             )}
           />
@@ -56,7 +56,7 @@ export function Button({
 
       <div
         className={cn(
-          "relative bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased",
+          "relative bg-[#ebdedc] dark:bg-black-200 border backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased ",
           className
         )}
         style={{

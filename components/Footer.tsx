@@ -20,12 +20,12 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center">
           pislita lang na ang link sa ubos kung gusto ka kitag gwapo
         </p>
-        <a href="facebook.com">
+        <a href="https://www.facebook.com/DarkWanted08/">
           <MagicButton
             title="Facebook"
             icon={<FaLocationArrow />}
             position="right"
-            otherClasses="gap-3"
+            otherClasses="gap-3 bg-rose-500"
           />
         </a>
       </div>
@@ -38,9 +38,16 @@ const Footer = () => {
           {socialMedia.map((profile) => (
             <div
               key={profile.id}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter saturate-150 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter saturate-150 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 shadow-black dark:shadow-white shadow-[3px_3px] active:translate-x-[3px] active:translate-y-[3px] transition duration-75 active:shadow-none"
             >
-              <img src={profile.img} alt={profile.img} width={20} height={20} />
+              <a href={profile.href} target="_blank">
+                <img
+                  src={profile.img}
+                  alt={profile.img}
+                  width={20}
+                  height={20}
+                />
+              </a>
             </div>
           ))}
         </div>
