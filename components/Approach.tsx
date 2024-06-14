@@ -10,7 +10,7 @@ export function Approach() {
       <h1 className="heading">
         Unsaon para mahimog <span className="text-purple">Pinaka Gwapo</span>
       </h1>
-      <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black-100 gap-4">
+      <div className="py-20 flex flex-col lg:flex-row items-center justify-center dark:bg-black-100 gap-4">
         <Card
           title="Joseph"
           icon={<AceternityIcon order="Uno" />}
@@ -41,7 +41,7 @@ export function Approach() {
         <Card
           title="Gwapo"
           icon={<AceternityIcon order="Tres" />}
-          description="With an insatiable curiosity, you embrace every opportunity to expand your horizons. Learning is not confined to formal education; it's a lifelong quest that permeates your daily experiences. This approach keeps you adaptable and innovative, always ready to evolve and thrive in an ever-changing world."
+          description="Ako sayo ikay ay akin. ganda mo sa paningin. ako ngayoy nag iisa. sana ay sabihan na sa ilalim ng puting ilaw sa dilaw ng buwan."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}

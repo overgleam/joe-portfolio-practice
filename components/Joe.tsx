@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
@@ -10,6 +10,9 @@ import { FaMoon } from "react-icons/fa";
 const Joe = () => {
   const { theme, setTheme } = useTheme();
   const [toggle, setToggle] = useState<Boolean>(true);
+  useEffect(() => {
+    if (theme === "light") setToggle(false);
+  }, []);
   const handleClick = () => {
     if (theme === "light") setTheme("dark");
     else setTheme("light");

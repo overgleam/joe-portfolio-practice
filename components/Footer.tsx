@@ -15,9 +15,10 @@ const Footer = () => {
       </div>
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Footer ni do amaw <span className="text-purple">Pinaka Gwapo</span>
+          Footer ni diring dapita do{" "}
+          <span className="text-purple">Contact ni</span>
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
+        <p className="text-gray-500 dark:text-white-200 md:mt-10 my-5 text-center">
           pislita lang na ang link sa ubos kung gusto ka kitag gwapo
         </p>
         <a href="https://www.facebook.com/DarkWanted08/">
@@ -25,7 +26,7 @@ const Footer = () => {
             title="Facebook"
             icon={<FaLocationArrow />}
             position="right"
-            otherClasses="gap-3 bg-rose-500"
+            otherClasses="gap-3 bg-[#f7b302]"
           />
         </a>
       </div>
@@ -38,7 +39,7 @@ const Footer = () => {
           {socialMedia.map((profile) => (
             <div
               key={profile.id}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter saturate-150 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 shadow-black dark:shadow-white shadow-[3px_3px] active:translate-x-[3px] active:translate-y-[3px] transition duration-75 active:shadow-none"
+              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter saturate-150 bg-opacity-75 bg-rose-500 dark:bg-black-200 rounded-lg border border-black-300 shadow-black dark:shadow-white shadow-[3px_3px] active:translate-x-[3px] active:translate-y-[3px] transition duration-75 active:shadow-none"
             >
               <a href={profile.href} target="_blank">
                 <img

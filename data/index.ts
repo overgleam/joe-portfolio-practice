@@ -1,7 +1,7 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Kinsa Ko", link: "#about" },
+  { name: "ProjectKunohay", link: "#projects" },
+  { name: "WorkKunohay", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "Ikaw sa akin ay mahalaga",
     des: "Kasi alam Mo na sa tong-its, talo ako Puwede bang bigyan ako kahit anim na numero?",
-    img: "/p2.svg",
+    img: "/dota2.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://www.facebook.com/DarkWanted08",
   },
@@ -90,7 +90,7 @@ export const projects = [
     id: 3,
     title: "Ako sa'yo'y kaibigan lamang",
     des: "Kinakausap lang Kita kapag ako'y nangangailangan Sana'y may artista na maka-date man lamang",
-    img: "/p3.svg",
+    img: "/dota3.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://www.facebook.com/DarkWanted08",
   },
@@ -98,7 +98,7 @@ export const projects = [
     id: 4,
     title: "Lord patawag pagkat akoy makasalanan",
     des: "Okay lang sa akin kahit na si Joyce Jimenez Sana ako'y pumogi, pumuti, at maging flawless",
-    img: "/p4.svg",
+    img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://www.facebook.com/DarkWanted08",
   },
@@ -214,6 +214,11 @@ export const socialMedia = [
   },
   {
     id: 3,
+    img: "/youtube.svg",
+    href: "https://www.youtube.com/channel/UCa0NY6MS0sYihw-m488_GIA",
+  },
+  {
+    id: 4,
     img: "/link.svg",
     href: "https://www.facebook.com/DarkWanted08",
   },
