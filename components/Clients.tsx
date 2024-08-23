@@ -6,8 +6,7 @@ const Clients = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        Mga words of Wisdom ni Alporke{" "}
-        <span className="text-purple">Pinaka Gwapo</span>
+        Words of Wisdom <span className="text-purple">by Professionals</span>
       </h1>
       <div className="flex flex-col items-center mt-10">
         <InfiniteMovingCards

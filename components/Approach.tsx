@@ -8,13 +8,13 @@ export function Approach() {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        Unsaon para mahimog <span className="text-purple">Pinaka Gwapo</span>
+        My <span className="text-purple">Personal Attributes</span>
       </h1>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center dark:bg-black-100 gap-4">
         <Card
-          title="Joseph"
+          title="Passionate Learner"
           icon={<AceternityIcon order="Uno" />}
-          description="Akong gugma kanimo morag biko naay sagol latik pero way sagol atik andam tikang huwaton bisag imo rakong ing anaon, ma bugnaw man ang kan on, malaya man ang dahon, basta ikaw akong makadayun, let's go na dayun"
+          description="I am deeply passionate about learning and continuously expanding my knowledge in computer science. Whether it's exploring new programming languages or diving into emerging technologies, I am always eager to grow and improve."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -22,9 +22,9 @@ export function Approach() {
           />
         </Card>
         <Card
-          title="Alforque"
+          title="Problem Solver"
           icon={<AceternityIcon order="Dos" />}
-          description="Akong kab-uton ang buwan, e dribble-dribble sa imong atubangan, syaro kanang imong inahan, di nako mahimong ugangan."
+          description="I thrive on solving complex problems and finding innovative solutions. My analytical skills and creativity enable me to tackle challenges head-on and develop effective, efficient solutions."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -39,9 +39,9 @@ export function Approach() {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Gwapo"
+          title="Team Player"
           icon={<AceternityIcon order="Tres" />}
-          description="Ako sayo ikay ay akin. ganda mo sa paningin. ako ngayoy nag iisa. sana ay sabihan na sa ilalim ng puting ilaw sa dilaw ng buwan."
+          description="Collaboration is key to my approach. I enjoy working with diverse teams, sharing ideas, and combining our strengths to achieve common goals. My communication skills and adaptability make me an effective team player."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}

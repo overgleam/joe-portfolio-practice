@@ -7,8 +7,8 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        Mga project ni Alpork{" "}
-        <span className="text-[#f7b302]">Pinaka Gwapo</span>
+        My simple projects created{" "}
+        <span className="text-[#f7b302]">while in university</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }, index) => (
@@ -46,7 +46,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm">
-                    Check Live Site
+                    Try to hover
                   </p>
                   <FaLocationArrow className="text-purple ms-3" />
                 </div>

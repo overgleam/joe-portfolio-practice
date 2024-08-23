@@ -5,14 +5,13 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
-import { FaMoon } from "react-icons/fa";
 
 const Joe = () => {
   const { theme, setTheme } = useTheme();
   const [toggle, setToggle] = useState<Boolean>(true);
   useEffect(() => {
     if (theme === "light") setToggle(false);
-  }, []);
+  }, [theme]);
   const handleClick = () => {
     if (theme === "light") setTheme("dark");
     else setTheme("light");
@@ -46,10 +45,10 @@ const Joe = () => {
             </h2>
             <TextGenerateEffect
               className="text-center text-[40px] md:text-5xl lg:text-6xl mt-4"
-              words="Joseph Pinakagwapo sa Tanang kalibutang hastang Buanga Sheeeessshhh!"
+              words="A Computer Science student passionate about coding and innovative solutions."
             />
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Hello, I&apos;m under the water my name is Joseph Alforque.
+              Aspiring developer eager to learn and create nice projects
             </p>
             <a>
               <MagicButton
